@@ -3,7 +3,7 @@ package com.eventlooopsoftware;
 public class PersonJava {
     // private does't work when Java -> Scala case class
     // use enable bean getters, then it works
-    public String name;
+    private String name;
 
     public String getName() {
         return name;
