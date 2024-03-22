@@ -6,4 +6,8 @@ lazy val root = (project in file("."))
   .settings(
     name := "chimney-java-enum-bug-example"
   )
-  .settings(libraryDependencies ++= List("io.scalaland" %% "chimney" % "0.8.5"))
+  .settings(libraryDependencies ++= List(
+    "io.scalaland" %% "chimney" % "0.8.5",
+    "io.scalaland" %% "chimney-java-collections" % "0.8.5",
+
+  ))
