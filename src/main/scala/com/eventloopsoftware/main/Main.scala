@@ -1,4 +1,6 @@
-import com.eventlooopsoftware.javaenum.EnumJava
+package com.eventloopsoftware.main
+
+import com.eventloopsoftware.javaenum.EnumJava
 import io.scalaland.chimney.dsl.*
 
 // uncomment this line and the code will compile...
